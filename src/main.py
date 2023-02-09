@@ -33,7 +33,7 @@ import datetime
 import webbrowser
 import random
 
-class AssistantNyraServer:
+class AssistantNyraClient:
 	def __init__(self):
 		self.BASEURL = "http://127.0.0.1:8090/"
 		self.FILEPATH = "audio/"
@@ -74,7 +74,7 @@ class AssistantNyraServer:
 
 if __name__ == "__main__":
 	while True:
-		AssistantNyraServer().listen()
+		AssistantNyraClient().listen()
 
 # URL = "https://something.com"
 # DATA = {
